@@ -8,9 +8,9 @@ AOS.init();
 export const Page5 = () => {
 
 return (
+    <div className='page5'>
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
-    <div className='page5'>
       <Row className='text-center p-5'>
         <div className='p-5 mt-5'>
             <h1>Solar Panels</h1>
