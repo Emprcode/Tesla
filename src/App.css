@@ -1,10 +1,52 @@
-*{
-  color: white;
-}
-
-
 .main{
 background: url(./assets/tesla.jpg);
 background-size: cover;
 min-height: 100vh;
+}
+
+
+.button{
+  width: 13rem;
+  height: 3rem;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.button:hover{
+  border-color: greenyellow;
+  /* color: white; */
+}
+
+.button-div{
+  height: 22rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.page2{
+  background: url(../src/assets/model3.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.page3{
+  background: url(../src/assets/modelY.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.page4{
+  background: url(../src/assets/modelY.png);
+  background-size: cover;
+  min-height: 100vh;
 }
