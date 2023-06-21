@@ -7,9 +7,11 @@ AOS.init();
 
 export const Page2 = () => {
 return (
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
     <div className='page2' >
-      <Row className='text-center p-5'>
-        <div className='p-5 mt-5'>
+      <Row className='text-center p-5' >
+        <div className='p-5 mt-5' data-aos="fade-up">
             <h1>Model 3</h1>
             <p>Starting at $32,740</p>
             <p>After Federal Tax Credit</p>
@@ -26,6 +28,7 @@ return (
      <div>
         <p className='text-center mt-3'>3 months free Supercharging when you take delivery of a new Inventory vehicle by June 30</p>
      </div>
+    </div>
     </div>
   );
 }

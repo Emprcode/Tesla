@@ -10,7 +10,7 @@ export const Page1 = () => {
 return (
   <div>
         <Header/>
-    <div className='main'>
+    <div className='main' >
        <Row className='text-center p-5' data-aos="fade-up">
         <div className='p-5 mt-5'>
             <h1>Experience Tesla</h1>
@@ -20,7 +20,7 @@ return (
        
        </Row>
 
-       <div className='button-div'>
+       <div className='button-div' data-aos="fade-up">
        <div
      
      className='button mt-5'>DEMO DRIVE</div>

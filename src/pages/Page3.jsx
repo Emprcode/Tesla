@@ -1,7 +1,14 @@
 import { Row } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+AOS.init();
 
 export const Page3 = () => {
 return (
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
     <div className='page3'>
       <Row className='text-center p-5'>
         <div className='p-5 mt-5'>
@@ -18,7 +25,7 @@ return (
        <div className='button mt-5 bg-secondary text-light'>CUSTOM ORDER</div>
      </div>
 
-    
+     </div>
     </div>
   );
 }
