@@ -1,11 +1,25 @@
 import { Row } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import { useEffect } from 'react';
 
 
 AOS.init();
 
 export const Page3 = () => {
+//    useEffect(() => {
+//         const handleScroll = (event) => {
+//           if (event.deltaY < 0) {
+//             scrollToPage('page2');
+//           }
+//         };
+    
+//         window.addEventListener('wheel', handleScroll);
+    
+//         return () => {
+//           window.removeEventListener('wheel', handleScroll);
+//         };
+//       }, [scrollToPage]);
 return (
     <div className='page3'>
     <div data-aos="fade-up"

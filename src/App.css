@@ -57,6 +57,7 @@ min-height: 100vh;
   background: url(../src/assets/model3.png);
   background-size: cover;
   min-height: 100vh;
+  background-position: cover;
 }
 .page3{
   background: url(../src/assets/modelY.png);
