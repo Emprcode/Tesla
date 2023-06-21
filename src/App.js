@@ -13,7 +13,6 @@ import { Page8 } from './pages/Page8';
 function App() {
   return (
     <div className="App">
-     
      <Page1/>
      <Page2/>
      <Page3/>

@@ -1,14 +1,13 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../assets/logo.png'
-import { Header } from './Header';
 import { Row } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+AOS.init();
 
 export const Page2 = () => {
 return (
-    <div className='page2'>
+    <div className='page2' >
       <Row className='text-center p-5'>
         <div className='p-5 mt-5'>
             <h1>Model 3</h1>
