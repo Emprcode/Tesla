@@ -1,0 +1,10 @@
+*{
+  color: white;
+}
+
+
+.main{
+background: url(./assets/tesla.jpg);
+background-size: cover;
+min-height: 100vh;
+}
