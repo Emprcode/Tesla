@@ -5,7 +5,7 @@ return (
     <div className='page4'>
       <Row className='text-center p-5'>
         <div className='p-5 mt-5'>
-            <h1>Model X</h1>
+            <h1>Model S</h1>
             <p>Explore Inventory</p>
             <p>After Federal Tax Credit</p>
         </div>

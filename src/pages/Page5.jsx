@@ -2,7 +2,7 @@ import { Row } from 'react-bootstrap';
 
 export const Page5 = () => {
 return (
-    <div className='page3'>
+    <div className='page5'>
       <Row className='text-center p-5'>
         <div className='p-5 mt-5'>
             <h1>Solar Panels</h1>
