@@ -98,50 +98,26 @@ min-height: 100vh;
   cursor: pointer;
 }
 
-/* ScrollToTopButton.css */
 
-.scroll-to-top-container {
-  
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-}
-
-.scroll-to-top-transition {
+.bout-icon-transition {
   transition: opacity 0.2s;
 }
 
-.scroll-to-top-toggled {
+.bout-icon-toggled {
   opacity: 1 !important;
+  
 }
 
-css-eSWDUO {
-  display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
+
+
+.about-icon{
+  background: #e1eae7ca;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
-  border-width: 0px;
-  border-style: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 8px;
-  text-decoration: none;
-  appearance: none;
+  align-items: center;
   cursor: pointer;
-  margin: 0px;
-  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  border-radius: 38px;
-  color: rgb(0, 0, 0);
-  gap: 8px;
-  padding: 14px;
-  background: rgb(255, 255, 255);
-  transition: all 500ms ease 0s;
-  transform: translateY(2px);
 }
+

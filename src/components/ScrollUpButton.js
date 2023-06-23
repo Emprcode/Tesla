@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 // import './ScrollToTopButton.css'; // Import CSS file for styling
 
 export const ScrollUpButton = () => {
@@ -11,15 +11,15 @@ export const ScrollUpButton = () => {
   };
 
   return (
-    <Link
-      className="css-eSWDUO "
-      to="top"
-      smooth={true}
-      duration={500}
-      onClick={scrollToTop}
-    >
-      &#8593; {/* Upward pointing arrow */}
-    </Link>
+    <div className='p-3' onClick={scrollToTop}>
+         
+   
+        <span className="p-2 mb-2 h3 about-icon text-dark">
+            {" "}
+            <i className="fa-solid fa-arrow-up"></i>
+          </span>
+  
+    </div>
   );
 };
 
