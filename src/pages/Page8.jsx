@@ -1,6 +1,7 @@
 import { Row } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { ScrollUpButton } from '../components/ScrollUpButton';
 
 
 AOS.init();
@@ -29,6 +30,11 @@ return (
         <div>News</div>
         <div>Get Updates</div>
         <div>Locations</div>
+     </div>
+
+     <div className='d-flex justify-content-end'>
+     <ScrollUpButton/>
+      
      </div>
 
     
