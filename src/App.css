@@ -121,3 +121,31 @@ min-height: 100vh;
   cursor: pointer;
 }
 
+.button-text{
+  position: absolute;
+  bottom: 45px;
+  left: -50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease;
+}
+.button-text:hover{
+  display: block;
+}
+
+.btn-txt {
+  color: rgb(0, 0, 0);
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.scrolltop:hover .button-text {
+  visibility: visible;
+  opacity: 1;
+}
