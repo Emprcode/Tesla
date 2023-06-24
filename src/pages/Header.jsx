@@ -13,13 +13,13 @@ return (
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto fw-bold gap-2">
-            <Nav.Link href="modelS">Model S</Nav.Link>
-            <Nav.Link href="model3">Model 3</Nav.Link>
-            <Nav.Link href="modelX">Model X</Nav.Link>
-            <Nav.Link href="modelY">Model Y</Nav.Link>
-            <Nav.Link href="solarroof">Solar Roof</Nav.Link>
-            <Nav.Link href="solarpanels">Solar Panels</Nav.Link>
-            <Nav.Link href="powerwall">Powerwall</Nav.Link>
+            <Nav.Link href="#modelS">Model S</Nav.Link>
+            <Nav.Link href="#model3">Model 3</Nav.Link>
+            <Nav.Link href="#modelX">Model X</Nav.Link>
+            <Nav.Link href="#modelY">Model Y</Nav.Link>
+            <Nav.Link href="#solarroof">Solar Roof</Nav.Link>
+            <Nav.Link href="#solarpanels">Solar Panels</Nav.Link>
+            <Nav.Link href="#powerwall">Powerwall</Nav.Link>
           </Nav>
           <Nav className='fw-bold'>
             <Nav.Link href="shop">Shop</Nav.Link>

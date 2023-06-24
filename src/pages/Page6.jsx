@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 export const Page6 = () => {
 return (
-    <div className='page6'>
+    <div className='page6' id='solarroof'>
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
       <Row className='text-center p-5'>

@@ -7,7 +7,7 @@ AOS.init();
 
 export const Page2 = () => {
 return (
-  <div className='page2' >
+  <div className='page2' id='model3'>
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
       <Row className='text-center p-5' >

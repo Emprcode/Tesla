@@ -7,7 +7,7 @@ import { ScrollUpButton } from '../components/ScrollUpButton';
 AOS.init();
 export const Page8 = () => {
 return (
-    <div className='page8'>
+    <div className='page8' id='accessories'>
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
       <Row className='text-center p-5'>

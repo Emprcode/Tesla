@@ -7,11 +7,11 @@ AOS.init();
 
 export const ModelX = () => {
 return (
-    <div className='pageX' >
+    <div className='pageX' id='modelX' >
         <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
         
-      <Row className='text-center p-5'>
+      <Row className='text-center p-5' >
         <div className='p-5 mt-5'>
             <h1>Model X</h1>
             <p>Explore Inventory</p>

@@ -10,7 +10,7 @@ export const Page1 = () => {
 return (
   <div>
         <Header/>
-    <div className='main' >
+    <div className='main'>
       <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
        <Row className='text-center p-5' >
