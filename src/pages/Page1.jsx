@@ -1,5 +1,5 @@
 import { Header } from './Header';
-import {Row} from 'react-bootstrap'
+import { Row} from 'react-bootstrap'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -8,7 +8,7 @@ AOS.init();
 
 export const Page1 = () => {
 return (
-  <div>
+  <>
         <Header/>
     <div className='main'>
       <div data-aos="fade-up"
@@ -29,6 +29,6 @@ return (
      </div>
     </div>
     </div>
-    </div>
+    </>
   );
 }

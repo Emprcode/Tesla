@@ -15,12 +15,16 @@ background: url(./assets/tesla.jpg);
 background-size: cover;
 min-height: 100vh;
 
+
+}
 @media screen and (max-width : 600px){
   .main {
-    background-size: cover;
+    background-size: auto 100% ;
+    
+    
     }
 }
-}
+
 
 
 .button{
