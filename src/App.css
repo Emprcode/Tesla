@@ -14,6 +14,7 @@
 background: url(./assets/tesla.jpg);
 background-size: cover;
 min-height: 100vh;
+scroll-behavior:smooth !important;
 
 
 }
