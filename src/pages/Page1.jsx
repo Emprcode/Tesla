@@ -1,5 +1,5 @@
 import { Header } from './Header';
-import { Row} from 'react-bootstrap'
+import { Container, Row} from 'react-bootstrap'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -11,6 +11,7 @@ return (
   <>
         <Header/>
     <div className='main'>
+      <Container className='p-3'>
       <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
        <Row className='text-center p-5' >
@@ -28,6 +29,7 @@ return (
      className='button mt-5'>DEMO DRIVE</div>
      </div>
     </div>
+    </Container>
     </div>
     </>
   );

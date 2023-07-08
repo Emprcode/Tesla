@@ -1,4 +1,4 @@
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -8,6 +8,7 @@ AOS.init();
 export const Page7 = () => {
 return (
     <div className='page7' id='powerwall'>
+      <Container className='p-3'>
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
       <Row className='text-center p-5'>
@@ -24,7 +25,7 @@ return (
        <div className='button mt-5 bg-secondary text-light'>LEARN MORE</div>
      </div>
      </div>
-    
+     </Container>
     </div>
   );
 }

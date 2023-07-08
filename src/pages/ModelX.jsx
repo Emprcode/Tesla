@@ -1,4 +1,4 @@
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -8,6 +8,7 @@ AOS.init();
 export const ModelX = () => {
 return (
     <div className='pageX' id='modelX' >
+      <Container className='p-3'>
         <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
         
@@ -27,6 +28,7 @@ return (
      </div>
 
      </div>
+     </Container>
     </div>
   );
 }

@@ -13,18 +13,19 @@
 .main{
 background: url(./assets/tesla.jpg);
 background-size: cover;
+background-position: center center;
 min-height: 100vh;
 scroll-behavior:smooth !important;
 
 
 }
-@media screen and (max-width : 600px){
+/* @media screen and (max-width : 600px){
   .main {
-    background-size: auto 100% ;
+    background-size: cover ;
     
     
     }
-}
+} */
 
 
 
@@ -60,42 +61,50 @@ scroll-behavior:smooth !important;
 .page2{
   background: url(../src/assets/model3.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
   background-position: cover;
 }
 .page3{
   background: url(../src/assets/modelY.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 .page4{
   background: url(../src/assets/modelS.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 .pageX{
   background: url(../src/assets/modelX.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 .page5{
   background: url(../src/assets/SolarPanel.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 .page6{
   background: url(../src/assets/SolarRoof.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 .page7{
   background: url(../src/assets/PowerWall.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 .page8{
   background: url(../src/assets/Accessories.png);
   background-size: cover;
+  background-position: center center;
   min-height: 100vh;
 }
 

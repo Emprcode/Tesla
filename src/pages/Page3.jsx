@@ -1,4 +1,4 @@
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import { useEffect } from 'react';
@@ -22,6 +22,7 @@ export const Page3 = () => {
 //       }, [scrollToPage]);
 return (
     <div className='page3' id='modelY'>
+        <Container className='p-3'>
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
       <Row className='text-center p-5'>
@@ -40,6 +41,7 @@ return (
      </div>
 
      </div>
+     </Container>
     </div>
   );
 }
