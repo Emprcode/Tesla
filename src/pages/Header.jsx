@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 export const Header = () => {
 return (
     <Navbar collapseOnSelect expand="md" 
-    // className="fixed-top"
+    className="fixed-top"
     >
       <Container className='mt-3'>
         <Navbar.Brand href="/">
