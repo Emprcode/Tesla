@@ -38,7 +38,6 @@ scroll-behavior:smooth !important;
   background-color: transparent;
   transition: 0.1s background-color linear, 0.1s color linear;
   border-radius: 300px;
-
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,16 +1,18 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/logo.png'
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import logo from "../assets/logo.png";
 
 export const Header = () => {
-return (
-    <Navbar collapseOnSelect expand="md" 
-    className="fixed-top"
+  return (
+    <Navbar
+      collapseOnSelect
+      expand="md"
+      // className="fixed-top"
     >
-      <Container className='mt-3'>
+      <Container className="mt-3">
         <Navbar.Brand href="/">
-            <img src={logo} alt="logo" width="140px" />
+          <img src={logo} alt="logo" width="140px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,7 +25,7 @@ return (
             <Nav.Link href="#solarpanels">Solar Panels</Nav.Link>
             <Nav.Link href="#powerwall">Powerwall</Nav.Link>
           </Nav>
-          <Nav className='fw-bold'>
+          <Nav className="fw-bold">
             <Nav.Link href="shop">Shop</Nav.Link>
             <Nav.Link href="account">Account</Nav.Link>
             <Nav.Link href="menu">Menu</Nav.Link>
@@ -35,4 +37,4 @@ return (
       </Container>
     </Navbar>
   );
-}
+};
