@@ -11,7 +11,7 @@ export const Header = () => {
       // className="fixed-top"
     >
       <Container className="mt-3">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" className="h1">
           <img src={logo} alt="logo" width="140px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
