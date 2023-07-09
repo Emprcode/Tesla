@@ -1,4 +1,5 @@
 import './App.css';
+import { Footer } from './pages/Footer';
 import { ModelX } from './pages/ModelX';
 import { Page1 } from './pages/Page1';
 import { Page2 } from './pages/Page2';
@@ -31,6 +32,7 @@ function App() {
      <Page6 />
      <Page7 />
      <Page8 />
+     <Footer/>
     </div>
   );
 }

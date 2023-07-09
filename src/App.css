@@ -103,9 +103,23 @@ scroll-behavior:smooth !important;
 .page8{
   background: url(../src/assets/Accessories.png);
   background-size: cover;
-  background-position: center center;
+  /* background-position: center ; */
+  /* width: 100%; */
   min-height: 100vh;
 }
+
+@media screen and (max-width : 600px){
+  .page8 {
+     background-position: center center ;
+    }
+} 
+/* @media (min-width: 600px) and (max-width: 1023px){
+  .page8 {
+    margin-top: 1rem;
+     background-position: center center ;
+    }
+}  */
+
 
 .pointer{
   cursor: pointer;
