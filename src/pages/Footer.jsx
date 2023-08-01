@@ -7,8 +7,8 @@ AOS.init();
 export const Footer = () => {
   return (
     <div>
-      <Container className="p-3">
-        <div className="d-flex justify-content-center gap-3 pointer">
+      <div className="  p-5 bg-dark text-light ">
+        <div className="d-flex justify-content-center flex-row flex-wrap gap-3 pointer">
           <div className=""> Tesla &copy; 2023</div>
           <div>Privacy & Legal</div>
           <div>Vehicle Recalls</div>
@@ -17,11 +17,10 @@ export const Footer = () => {
           <div>Get Updates</div>
           <div>Locations</div>
         </div>
-
         <div className="d-flex justify-content-end">
           <ScrollUpButton />
         </div>
-      </Container>
+      </div>
     </div>
   );
 };

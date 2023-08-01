@@ -10,7 +10,7 @@ export const Page8 = () => {
       <Container className="p-5">
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
           <Row className="text-center p-5">
-            <div className="p-5 mt-5">
+            <div className="mt-5">
               <h1>Accessories</h1>
             </div>
           </Row>
